@@ -1,5 +1,5 @@
 <template>
-    <a-card title="tsconfig.json" class="rounded-lg m-4" ref="codeRef">
+    <a-card title="tsconfig.json" class="lg:col-span-1 rounded-lg m-4" ref="codeRef">
         <template #extra>
             <a-button @click="handleClipboard">
                 <template #icon>
